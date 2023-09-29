@@ -1,0 +1,596 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},"firstMatch":[{}]},"desiredCapabilities":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},null,{"alwaysMatch":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1680934824430 (14:20:24 GMT+0800 (Singapore Standard Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   udid
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   ignoreUnimportViews
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:udid": "192.168.4.93:5555",
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "9",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.kato.vms_v3",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:noReset": "true",
+[debug] [35m[BaseDriver][39m     "appium:ignoreUnimportViews": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   ignoreUnimportViews
+[35m[BaseDriver][39m Session created with session id: 5f52d05b-e41d-46c7-998e-a3a09de35fa4
+[35m[UiAutomator2][39m Starting 'com.kato.vms_v3' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Lenovo\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/Lenovo/AppData/Local/Android/Sdk/build-tools/33.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1680934848229 (14:20:48 GMT+0800 (Singapore Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Could not find a connected Android device in 20172ms.
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:266:13)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:18)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[debug] [35m[W3C][39m     at getDevices (C:\VMS_V3\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m23991 ms - 609[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},"firstMatch":[{}]},"desiredCapabilities":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},null,{"alwaysMatch":{"udid":"192.168.4.93:5555","platformName":"Android","platformVersion":"9","appPackage":"com.kato.vms_v3","automationName":"UiAutomator2","appActivity":".MainActivity","noReset":"true","ignoreUnimportViews":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1680934848463 (14:20:48 GMT+0800 (Singapore Standard Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   udid
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   ignoreUnimportViews
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:udid": "192.168.4.93:5555",
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "9",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.kato.vms_v3",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:noReset": "true",
+[debug] [35m[BaseDriver][39m     "appium:ignoreUnimportViews": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   ignoreUnimportViews
+[35m[BaseDriver][39m Session created with session id: a805e575-4ed4-4a2b-bbfc-14ce26427123
+[35m[UiAutomator2][39m Starting 'com.kato.vms_v3' directly on the device
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
