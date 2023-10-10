@@ -34,7 +34,7 @@
     "@wdio/spec-reporter": "^8.6.8",
     "appium": "^1.22.3",
     "appium-webdriverio": "^1.0.1",
-    "chromedriver": "^114.0.1",
+    "chromedriver": "^117",
     "exceljs": "^4.3.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.3",
